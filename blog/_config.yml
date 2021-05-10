@@ -1,0 +1,19 @@
+name: HypwnLab
+description: HypwnLab Blog
+meta_description: "Nondisclosure 1-day & 0-day research group"
+
+markdown: kramdown
+highlighter: rouge
+logo: false
+paginate: 15
+baseurl: /kasper
+domain_name: "http://yourblog-domain.com"
+google_analytics: "UA-XXXXXXXX-X"
+plugins: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url: ""
+author: "hypwnlab"
+
+# Disqus config
+disqus-shortname: ""
