@@ -1,0 +1,219 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #333;
+}
+
+h1 {
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Paragraph & Typographic */
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Profile */
+.profile{
+  margin-bottom: 50px;
+}
+.profile .pic{
+  width: 180px;
+  height: 180px;
+  object-fit:cover;
+  border:2px solid grey;
+  border-radius: 10%;
+}
+.profile .name {
+    margin-top: 8px;
+    font-weight: bold;
+}
+.profile * {
+  margin-bottom: 3px;
+  vertical-align: middle;
+}
+.profile * .val {
+    font-size: 1.2em;
+    position: relative;
+    display: inline-block;
+    
+    margin: 0 0 0 5px;
+}
+.profile .field .val .badge{
+  font-weight: lighter;
+  vertical-align: super;
+}
+.profile .comment{
+  font-size: 12px;
+}
+.profile .comment span{
+  margin: 0 3px 0 3px;
+}
+.bi::before {
+  display: inline-block;
+  content: "";
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+}
+
+
+/* Links */
+
+a {
+  color: #1abc9c;
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:before, a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar {
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.navbar-inverse {
+  padding: 30px 0;
+}
+
+@media (max-width: 768px ) {
+  .navbar-inverse {
+    padding: 15px 0;
+  }
+}
+.navbar-inverse {
+  background-color: #1abc9c;
+  border-color: #16a085;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #222222;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 0 0 0 0;
+}
+
+.navbar-inverse .navbar-brand {
+  color: azure;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-comment {
+  color:azure;
+  font-size: 14px;
+  text-align: center;
+}
+.navbar-comment span{
+  margin: 0 3px 0 3px;
+}
+
+.progress-bar-theme {
+  background-color: #1abc9c;
+}
+
+
+
+#main {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #f2f2f2;
+}
+
+.member {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#footer {
+  background-color: #2f2f2f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer p {
+  color: azure;
+}
+
+#footer h4 {
+  color: azure;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+/* Copyrights */
+#copyrights {
+  background: #222222;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#copyrights p {
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+#copyrights a {
+  color: #1abc9c;
+}
+
+.credits {
+  color: #999;
+}
